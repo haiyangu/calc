@@ -1,5 +1,7 @@
 class Calc:
-
+    '''
+    A class to do calculation.
+    '''
     def add(self, a, b):
         if (isinstance(a, (int, float)) and isinstance(b, (int, float))) is True:
             return a + b
